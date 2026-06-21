@@ -1,4 +1,4 @@
-FROM ollama/ollama:latest
+FROM ollama/ollama:0.24.0
 
 # Start the Ollama server in the background, wait for it to initialize, 
 # pull the models, and then close the server so Docker can save the image.
